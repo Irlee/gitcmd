@@ -5,3 +5,6 @@
 >>>>>>> 3f605767cb8b2918048ef1c6ea0ab7e21ab0f97f
 通过git pull拉取查看冲突并解决，发现word文档git pull的时候直接用远程文件覆盖本地
 并没有冲突的具体信息
+
+git restore <file>              //restore workspace changes
+git restore --staged <file>     //restore index changes, don't affect the workspace, discard the 'add'
